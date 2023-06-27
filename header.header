@@ -1,0 +1,9 @@
+{
+  "Authors": "Gladyon and Robotnikman",
+  "Version": "00000000-0000-0000-0000-000000000000",
+  "ComponentId": {
+    "Guid": "91c6ec9e-3114-4b3f-9b24-c4eabc77bdd0",
+    "Name": "LargeAPS"
+  },
+  "Description": "Allows to create APS cannons larger than 500mm, and below 18mm"
+}

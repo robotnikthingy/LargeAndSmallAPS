@@ -1,0 +1,8 @@
+{
+	name: "LargeAPS",
+	version: "1.0",
+	filename: "0Harmony.dll,LargeAPS.dll",
+	gameversion: "3.6.4",
+	depends: [],
+	conflicts: []
+}

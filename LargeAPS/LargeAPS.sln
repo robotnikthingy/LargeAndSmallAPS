@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargeAPS", "LargeAPS.csproj", "{A2E140FC-5B61-4C2E-9053-517DF3743D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E140FC-5B61-4C2E-9053-517DF3743D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E140FC-5B61-4C2E-9053-517DF3743D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E140FC-5B61-4C2E-9053-517DF3743D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E140FC-5B61-4C2E-9053-517DF3743D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F150A1C-3B8A-4F62-8A08-EC093485ED4C}
+	EndGlobalSection
+EndGlobal
