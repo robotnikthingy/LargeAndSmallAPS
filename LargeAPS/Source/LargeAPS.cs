@@ -278,14 +278,13 @@ namespace LargeAPS
             __instance.CreateHeader(ApsTab._locFile.Get("Header_Aesthetics", "Aesthetics"),
                 new ToolTip(ApsTab._locFile.Get("Header_Aesthetics_Tip", "Configure whether the barrels and railgun magnets visually spin, and how far apart multiple barrels will be placed.")));
 
-            var spinSegment = __instance.CreateTableSegment(2, 2);
+            var spinSegment = __instance.CreateTableSegment(2, 3);
             spinSegment.SqueezeTable = false;
 
             spinSegment.AddInterpretter(Quick.Toggle(__instance._focus.Data, t => nameof(t.AllowBarrelSpin)));
-            spinSegment.AddInterpretter(Quick.Toggle(__instance._focus.Data, t => nameof(t.InvertSpinDirection)));
             spinSegment.AddInterpretter(Quick.Toggle(__instance._focus.Data, t => nameof(t.AllowRailgunSpin)));
             spinSegment.AddInterpretter(Quick.Toggle(__instance._focus.Data, t => nameof(t.DisableBarrelReciprocation)));
-
+            spinSegment.AddInterpretter(Quick.Toggle(__instance._focus.Data, t => nameof(t.InvertSpinDirection)));
             spinSegment.AddInterpretter(Quick.Slider(__instance._focus.Data, t => nameof(t.BarrelSpacing)));
 
 

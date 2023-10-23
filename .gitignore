@@ -99,3 +99,4 @@ LargeAPS/.vs/LargeAPS/v15/.suo
 *.cache
 *.CopyComplete
 LargeAPS/obj/Debug/LargeAPS.csproj.FileListAbsolute.txt
+LargeAPS/bin/Debug/System.ValueTuple.dll
